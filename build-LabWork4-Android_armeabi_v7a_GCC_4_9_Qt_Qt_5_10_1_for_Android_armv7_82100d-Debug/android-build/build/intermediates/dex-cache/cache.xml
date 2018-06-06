@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/libs/QtAndroidBearer-bundled.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dff83f2bf8fddb80286ee18194ea41f2965fa45f">
+        <dex dex="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroidBearer-bundled_09b4746042c1947d7aa140997eb08512c528b980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/libs/QtAndroid-bundled.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5fe3be9a3a22be3299386555866ebc284be5e1cf">
+        <dex dex="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/build/intermediates/pre-dexed/debug/QtAndroid-bundled_8de8519022e98b761255900652d84cebc35ab4d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/libs/QtMultimedia-bundled.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae6463a50b869b472129a5c8429e6d8169c242fb">
+        <dex dex="/Users/mac/QtProjects/DPSI/build-LabWork4-Android_armeabi_v7a_GCC_4_9_Qt_Qt_5_10_1_for_Android_armv7_82100d-Debug/android-build/build/intermediates/pre-dexed/debug/QtMultimedia-bundled_5dfa0532b346c12909842707ac3828bce523f157.jar" />
+    </item>
+
+</items>

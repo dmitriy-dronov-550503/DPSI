@@ -1,0 +1,23 @@
+#include "fourier.h"
+
+Fourier::Fourier()
+{
+
+}
+
+Complex[] Fourier::DiscreteTransform(Complex[] inputValues, int dir)
+{
+    if (dir != 1 && dir != -1) return new Complex[] { 0 };
+    int N = inputValues.Length;
+    Complex[] outputValues = new Complex[N];
+    for (int k = 0; k < N; k++)
+    {
+        for (int m = 0; m < N; m++)
+        {
+            outputValues[k] += (inputValues[m] * Complex.Exp(-dir * 2 * Math.PI * Complex.ImaginaryOne * k * m / N));
+        }
+        if (dir == 1)
+            outputValues[k] /= N;
+    }
+    return outputValues;
+}
